@@ -29,3 +29,6 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 10
+
+LOGOTEXT = 'HydroGadget'
+LOGOIMAGE = '/theme/images/hydrogadget.png'
