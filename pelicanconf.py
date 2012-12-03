@@ -14,6 +14,9 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'Blog'
+DATE_FORMAT = {
+    'en': '%a, %d %b %Y',
+}
 
 DELETE_OUTPUT_DIRECTORY = True
 
