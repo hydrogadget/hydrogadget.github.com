@@ -1,7 +1,7 @@
 Date: 2012-11-04
 Title: HydroGadget: Leaving Our Mark on The Internet of Things
 Tags: Hardware Startup
-Category: Design
+Category: About
 Author: Brian Munroe
 
 Do tell, what is a HydroGadget?
