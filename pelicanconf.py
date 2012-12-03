@@ -7,6 +7,7 @@ ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = u"HydroGadget"
 SITEURL = 'http://hydrogadget.org'
 
+GOOGLE_ANALYTICS = 'UA-36766611-1'
 GITHUB_URL = 'https://github.com/hydrogadget/'
 TWITTER_USERNAME = 'hydrogadget'
 TIMEZONE = 'America/Los_Angeles'
