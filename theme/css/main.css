@@ -103,6 +103,7 @@ pre{background-color: #000; padding: 10px; color: #fff; margin: 10px; overflow: 
 blockquote {
     margin: 20px;
     font-style: italic;
+    background-color: yellow;
 }
 cite {}
 
