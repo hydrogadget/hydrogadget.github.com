@@ -8,7 +8,7 @@ Do tell, what is a HydroGadget?
 ===
 
 So a while back, I was standing in my garage, freezing in the middle of the night, trying to figure out how to program
-my sprinkler timer to meet the new watering restrictions that the city had inacted in Las Vegas.
+my sprinkler timer to meet the new watering restrictions that the city had enacted in Las Vegas.
 
 
 I wanted to schedule it to water three days a week, twice a day...Ok, that seems

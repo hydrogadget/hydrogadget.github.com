@@ -80,7 +80,7 @@ serial header to the router mainboard.&lt;/p&gt;
 and has enough general purpose Input-Output (GPIO) that we can control the
 sprinkler valve solenoids without having to add a lot of extra components.&lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Raspberry Pi"></category></entry><entry><title>HydroGadget: Leaving Our Mark on The Internet of Things</title><link href="http://hydrogadget.org/2012/11/04/hydrogadget-leaving-our-mark-on-the-internet-of-things/" rel="alternate"></link><updated>2012-11-04T00:00:00-07:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-11-04:2012/11/04/hydrogadget-leaving-our-mark-on-the-internet-of-things/</id><summary type="html">&lt;h1&gt;Do tell, what is a HydroGadget?&lt;/h1&gt;
 &lt;p&gt;So a while back, I was standing in my garage, freezing in the middle of the night, trying to figure out how to program
-my sprinkler timer to meet the new watering restrictions that the city had inacted in Las Vegas.&lt;/p&gt;
+my sprinkler timer to meet the new watering restrictions that the city had enacted in Las Vegas.&lt;/p&gt;
 &lt;p&gt;I wanted to schedule it to water three days a week, twice a day...Ok, that seems
 easy enough, right?  Lets see here, what does this dial do...how about this thing
 that toggles between program A and B...and then program 1 and 2?...Wait a minute, A and B?
