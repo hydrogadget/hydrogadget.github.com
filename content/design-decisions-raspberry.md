@@ -29,7 +29,7 @@ third party.
 Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
 watering schedules.  These change about three times a year and usually
 customers are notified via a postcard to adjust them.  People sometimes ignore the
-notices, but most of the time, people just forget to change the schedules, even
+notices, but most of the time, people just get busy and forget to change their schedules, even
 with the reminder.
 
 
