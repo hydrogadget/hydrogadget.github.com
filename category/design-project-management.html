@@ -70,29 +70,39 @@
 now and we've come up with a dumptruck load of design requirments.  We've pared
 it down to a few that we think we can make for the Feb 2nd LV Mini Maker
 Faire deadline:</p>
+<h3>Phase One Reqirements</h3>
 <ol>
 <li>Must be inexpensive to build.</li>
-<li>Must connect to the internet.</li>
-<li>Must have a sensible and inuitive (web) interface.</li>
-<li>
-<p>Must minimize waste - be a drop-in replacement for an existing residential
-irrigation timer.</p>
-</li>
-<li>
-<p>THE BIG ONE:  Be able to communicate with the water district to determine </p>
-</li>
+<li>Must have a sensible and inuitive (web/mobile) interface.</li>
+<li>Must minimize waste - should act as a drop-in replacement for an existing residential
+irrigation timer.</li>
+<li>THE BIG ONE:  Must be able to communicate with the public utility to determine
+water restrictions.</li>
 </ol>
-<p>As far as choosing a platform, all of the HydroGadget team members have been
-playing around with the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> and we all think it will make an excellent controller for our project.</p>
+<p>Most of these requirements are pretty straightforward, but #4 is the most exciting
+to me.  Before starting this project, I googled around and found plenty of DIY
+sprinkler controllers, but none of them had the ability to communicate with a
+third party.  </p>
+<p>Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
+watering schedules.  These change on a quarterly basis and usually
+customers are notifed via a postcard to change their watering schedules.</p>
+<p>With the HydroGadget, we want to elimate this hassle by allowing the system to
+determine the restriction schedule and either adjust things automatically or
+atleast send an email / SMS reminder that things need to be adjusted.</p>
+<h3>Choosing Hardware for the Controller</h3>
+<p>As far as choosing a platform, the HydroGadget team members have been playing around with the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> and we all think it will make an excellent controller for our project.</p>
 <p>We originally started to take some inspiration from <a href="http://mightyohm.com/blog/about/">Jeff
 Keyzer's</a><a href="http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/">WiFi
 Radio</a>
 project.  Jeff did a really good job of documenting this fantastic project and we
-could easily see how we could adapt it to fit our needs.  However we decided that
+could easily see how it could be adapted to fit our project.  However we decided that
 if we wanted to make a production run of these things then using a Wifi router as
 our platform would be too wasteful (we'd have to throw away the case and the
 router power supply) and it would also be very time consuming to add the required
 serial header to the router mainboard.</p>
+<p>The Raspberry Pi is a very inexpensive (~$35US) and low power ARM based computer that runs Linux
+and has enough general purpose Input-Output (GPIO) that we can control the
+sprinkler valve solenoids without having to add a lot of extra components.</p>
                 </article>
                 
                     
