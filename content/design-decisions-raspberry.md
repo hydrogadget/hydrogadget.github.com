@@ -1,7 +1,7 @@
 Date: 2012-11-19
 Title: Fire up Microsoft Project and find a PMP!
 Tags: Hardware Startup, Raspberry Pi
-Category: Design, Project Management
+Category: Design
 Author: Brian Munroe
 
 

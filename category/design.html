@@ -39,10 +39,6 @@
                 
                     <li class="active"><a href=".././category/design.html">Design</a></li>
                 
-                    <li ><a href=".././category/design-project-management.html">Design, Project Management</a></li>
-                
-                    <li ><a href=".././category/hardware-design.html">Hardware Design</a></li>
-                
                 </ul></nav>
         </header><!-- /#banner -->
                 
@@ -53,8 +49,114 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././2012/11/04/hydrogadget-leaving-our-mark-on-the-internet-of-things/">HydroGadget: Leaving Our Mark on The Internet of Things</a></h1> 
+                    <h1 class="entry-title"><a href=".././2012/12/03/dear-wire-inductancego-to-hell/">Dear Wire Inductance..Go To Hell!</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2012-12-03T00:00:00">
+                Mon 03 December 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href=".././author/brian-munroe.html">Brian Munroe</a>
+        </address>
+        
+<p>In <a href=".././category/design.html">Design</a>. </p>
+<p>tags: <a href=".././tag/hardware-startup.html">Hardware Startup</a><a href=".././tag/power-supply.html">Power Supply</a><a href=".././tag/hurt-feelings.html">Hurt Feelings</a></p>
+
+
+</footer><!-- /.post-info --><p>We got our first lesson in electical engineering 101 at last night's <a href="https://synshop.org">SYN
+Shop</a> meetup.</p>
+<p>One of the requirements for the device is to use the existing irrigation
+controller power supply.  To use this, we needed to convert the power from 24VAC to
+5VDC.  Having never done this before and always up for the challenge, I fired up the internet and tried to determine
+what components we needed to build our own power supply.</p>
+<p>Ordering about $10 worth of parts (RF choke?  Whatever that is!) I tried my hand
+at assembling the circuit following the data sheet from the DC-DC converter.</p>
+<p><img src="http://i.imgur.com/kbABb.jpg?sss" alt="" title="Hosted by imgur.com" /></p>
+<p>After wiring it up, I was too tired and scared to plug it in to test it, so I
+waited until the SYN Shop meetup to get a second set of eyes on my circuit.  At
+the meetup, my good friend Josh looked over the converter datasheet and my wiring
+job, gave me the thumbs up and I plugged it in.  Putting the volt meter on the
+output leads....</p>
+<p><strong> Zero volts </strong></p>
+<p>Awe man, now what is wrong?</p>
+<p>I started picking apart my circuit, looking for mistakes and trying to confirm
+that I hadn't blown a part somewhere along the way.  After about 10 minutes of
+doing that and finally throwing my hands up in the air, two SYN Shop regulars, Charley and Nathan came over and started looking at what I was doing.</p>
+<p>Charley asked a few basic questions and finally said, "This circuit is way too
+sensitive to inductance for you to be using that rat's nest of jumpers.  You need
+to use perfboard and much shorter wire lengths".</p>
+<p>Nathan confirmed Charley's determination and retold a story about how he too had
+been bitten my this same exact problem.  However, instead of telling me "good
+luck!", Nathan went over to his box of components and pulled out an all in one
+DC-DC converter, handed it to me and said "here, just use this"</p>
+<p>So now, instead of this wild mess of wires and various components (I did learn
+what the RF choke does!  Thanks Charley!), the HydroGadget power circuit looks
+like this:</p>
+<p><img src=http://i.imgur.com/lZaf4.jpg" title="Hosted by imgur.com" /></p>
+<p>After a lot of back and forth, I decided that the even though it feels like
+cheating using </p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href=".././2012/11/19/fire-up-microsoft-project-and-find-a-pmp/" rel="bookmark"
+                           title="Permalink to Fire up Microsoft Project and find a PMP!">Fire up Microsoft Project and find a PMP!</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-11-19T00:00:00">
+                Mon 19 November 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href=".././author/brian-munroe.html">Brian Munroe</a>
+        </address>
+        
+<p>In <a href=".././category/design.html">Design</a>. </p>
+<p>tags: <a href=".././tag/hardware-startup.html">Hardware Startup</a><a href=".././tag/raspberry-pi.html">Raspberry Pi</a></p>
+
+
+</footer><!-- /.post-info -->
+                <p>Ok, not really...but Charles, Mike and myself have been meeting on a regular basis for about a month
+now and we've come up with a dumptruck load of design requirments.  We've pared
+it down to a few that we think we can make for the Feb 2nd ...</p>
+                <a class="readmore" href=".././2012/11/19/fire-up-microsoft-project-and-find-a-pmp/">read more</a>
+                
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href=".././2012/11/04/hydrogadget-leaving-our-mark-on-the-internet-of-things/" rel="bookmark"
+                           title="Permalink to HydroGadget: Leaving Our Mark on The Internet of Things">HydroGadget: Leaving Our Mark on The Internet of Things</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2012-11-04T00:00:00">
                 Sun 04 November 2012
         </abbr>
@@ -68,47 +170,27 @@
 <p>tags: <a href=".././tag/hardware-startup.html">Hardware Startup</a></p>
 
 
-</footer><!-- /.post-info --><h1>Do tell, what is a HydroGadget?</h1>
+</footer><!-- /.post-info -->
+                <h1>Do tell, what is a HydroGadget?</h1>
 <p>So a while back, I was standing in my garage, middle of the night, trying to figure out how to program
 my sprinkler timer to meet the new watering restrictions that the city had inacted
 in Las Vegas.</p>
-<p>I wanted to schedule it to water three days a week, twice a day...Ok, that seems
-easy enough, right?  Lets see here, what does this dial do...how about this thing
-that toggles between program A and B...and then program 1 and 2?...Wait a minute, A and B?
-1 and 2?  What on earth does all this mean?</p>
-<p><strong>WHO DESIGNED THIS THING?</strong></p>
-<p>After about 30 minutes of fumbling through a crazy interface, I think I got the
-timer programmed correctly, or so I hoped...guess I'll have to wait until tomorrow to find out.</p>
-<p>To make a long story short, I lucked out that time, but I seriously wanted to do
-something about the interface.</p>
-<h1>Enter, HydroGadget (and SYN Shop, and Mini-Maker Faire LV, and group of BFFs)</h1>
-<p>So after wandering aimlessly trying to learn microelectronics, I had assembled a
-few kits, played with the Arduino -- but I really didn't understand what I was
-doing.  I was just following recipes that someone else had designed.</p>
-<p>With the upcoming <a href="http://makerfairevegas.com/" title="Las
-Vegas Mini Maker Faire">Las Vegas Mini Maker Faire</a>, I really wanted to throw my hat into the ring as a
-maker.  I'm currently the president of <a href="https://synshop.org/" title="SYN Shop">SYN Shop</a>
-and I have nothing to show for myself.</p>
-<p>Pulling in a few friends that I work with (Charles and Mike), we all decided that
-we'd head down this road together.  We all have about the same level of experience
-with electronics but we all think this project sounds interesting and is going to
-be a great way to take our electronics skills to the next level.</p>
-                </article>
+<p>I wanted to schedule it to ...</p>
+                <a class="readmore" href=".././2012/11/04/hydrogadget-leaving-our-mark-on-the-internet-of-things/">read more</a>
                 
-                    
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            </ol><!-- /#posts-list -->
+            
+                
 <p class="paginator">
     
     Page 1 / 1
     
 </p>
 
-                
-            </aside><!-- /#featured -->
-            
-        
-        
-        
-            </ol><!-- /#posts-list -->
             
             </section><!-- /#content -->
         

@@ -1,7 +1,7 @@
 Date: 2012-12-03
 Title: Dear Wire Inductance..Go To Hell!
 Tags: Hardware Startup, Power Supply, Hurt Feelings
-Category: Hardware Design
+Category: Design
 Author: Brian Munroe
 
 
