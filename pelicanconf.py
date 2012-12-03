@@ -27,6 +27,7 @@ LINKS =  (
 # Social widget
 SOCIAL = (
          ('twitter', 'http://twitter.com/hydrogadget'),
+         ('imgur', 'http://hydrogadget.imgur.com'),
 )
 
 DEFAULT_PAGINATION = 10
