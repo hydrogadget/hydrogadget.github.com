@@ -16,8 +16,8 @@ Faire deadline:
 2.  Must have a sensible and inuitive (web/mobile) interface.
 3.  Must minimize waste - should act as a drop-in replacement for an existing residential
 irrigation timer.
-4.  THE BIG ONE:  Must be able to communicate with the public utility to determine
-water restrictions.
+4.  THE BIG ONE:  Must be able to communicate with the water utility to determine
+the water restriction schedule.
 
 
 Most of these requirements are pretty straightforward, but #4 is the most exciting
@@ -28,13 +28,26 @@ third party.
 
 Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
 watering schedules.  These change on a quarterly basis and usually
-customers are notifed via a postcard to change their watering schedules.
+customers are notifed via a postcard to adjust them.  People sometimes ignore the
+notices, but most of the time, people just forget to change the schedules, even
+with the reminder.
 
 
-With the HydroGadget, we want to elimate this hassle by allowing the system to
-determine the restriction schedule and either adjust things automatically or
-at least send an email / SMS reminder that things need to be adjusted.
+With the HydroGadget, we want to elimate this by allowing the system to
+continually poll the water utility to determine the restriction schedule.  It then
+would either adjust things automatically or at least send an email / SMS reminder 
+that things need to be changed.
 
+
+We think this will be something that the water utility would be really interested
+in as well.  Eliminating water waste is easy once it is highly automated.
+
+
+Additionally, we'd like to use the HydroGadget as a demostration platform for
+showing how valuable public data APIs are.  Our phase one plans are to screen
+scrape the water utility's website to determine the restriction schedule, but
+eventually we'd like to work with them to develop a web API that the HydroGadget
+and other devices could leverage.
 
 
 ### Choosing Hardware for the Controller ###

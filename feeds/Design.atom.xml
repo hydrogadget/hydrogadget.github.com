@@ -42,8 +42,8 @@ Faire deadline:&lt;/p&gt;
 &lt;li&gt;Must have a sensible and inuitive (web/mobile) interface.&lt;/li&gt;
 &lt;li&gt;Must minimize waste - should act as a drop-in replacement for an existing residential
 irrigation timer.&lt;/li&gt;
-&lt;li&gt;THE BIG ONE:  Must be able to communicate with the public utility to determine
-water restrictions.&lt;/li&gt;
+&lt;li&gt;THE BIG ONE:  Must be able to communicate with the water utility to determine
+the water restriction schedule.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Most of these requirements are pretty straightforward, but #4 is the most exciting
 to me.  Before starting this project, I googled around and found plenty of DIY
@@ -51,10 +51,20 @@ sprinkler controllers, but none of them had the ability to communicate with a
 third party.  &lt;/p&gt;
 &lt;p&gt;Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
 watering schedules.  These change on a quarterly basis and usually
-customers are notifed via a postcard to change their watering schedules.&lt;/p&gt;
-&lt;p&gt;With the HydroGadget, we want to elimate this hassle by allowing the system to
-determine the restriction schedule and either adjust things automatically or
-at least send an email / SMS reminder that things need to be adjusted.&lt;/p&gt;
+customers are notifed via a postcard to adjust them.  People sometimes ignore the
+notices, but most of the time, people just forget to change the schedules, even
+with the reminder.&lt;/p&gt;
+&lt;p&gt;With the HydroGadget, we want to elimate this by allowing the system to
+continually poll the water utility to determine the restriction schedule.  It then
+would either adjust things automatically or at least send an email / SMS reminder 
+that things need to be changed.&lt;/p&gt;
+&lt;p&gt;We think this will be something that the water utility would be really interested
+in as well.  Eliminating water waste is easy once it is highly automated.&lt;/p&gt;
+&lt;p&gt;Additionally, we'd like to use the HydroGadget as a demostration platform for
+showing how valuable public data APIs are.  Our phase one plans are to screen
+scrape the water utility's website to determine the restriction schedule, but
+eventually we'd like to work with them to develop a web API that the HydroGadget
+and other devices could leverage.&lt;/p&gt;
 &lt;h3&gt;Choosing Hardware for the Controller&lt;/h3&gt;
 &lt;p&gt;As far as choosing a platform, the HydroGadget team members have been playing around with the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and we all think it will make an excellent controller for our project.&lt;/p&gt;
 &lt;p&gt;We originally started to take some inspiration from &lt;a href="http://mightyohm.com/blog/about/"&gt;Jeff
