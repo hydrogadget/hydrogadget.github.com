@@ -33,7 +33,7 @@ customers are notifed via a postcard to change their watering schedules.
 
 With the HydroGadget, we want to elimate this hassle by allowing the system to
 determine the restriction schedule and either adjust things automatically or
-atleast send an email / SMS reminder that things need to be adjusted.
+at least send an email / SMS reminder that things need to be adjusted.
 
 
 

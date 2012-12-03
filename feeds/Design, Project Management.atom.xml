@@ -21,7 +21,7 @@ watering schedules.  These change on a quarterly basis and usually
 customers are notifed via a postcard to change their watering schedules.&lt;/p&gt;
 &lt;p&gt;With the HydroGadget, we want to elimate this hassle by allowing the system to
 determine the restriction schedule and either adjust things automatically or
-atleast send an email / SMS reminder that things need to be adjusted.&lt;/p&gt;
+at least send an email / SMS reminder that things need to be adjusted.&lt;/p&gt;
 &lt;h3&gt;Choosing Hardware for the Controller&lt;/h3&gt;
 &lt;p&gt;As far as choosing a platform, the HydroGadget team members have been playing around with the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and we all think it will make an excellent controller for our project.&lt;/p&gt;
 &lt;p&gt;We originally started to take some inspiration from &lt;a href="http://mightyohm.com/blog/about/"&gt;Jeff
