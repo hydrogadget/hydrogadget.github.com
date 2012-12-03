@@ -34,10 +34,7 @@ with the reminder.
 
 
 
-> With the HydroGadget, we want to eliminate this by allowing the system to
-> continually poll the water utility to determine the restriction schedule.  It then
-> would either adjust things automatically or at least send an email / SMS reminder 
-> that things need to be changed.
+With the HydroGadget, we want to eliminate this by allowing the system to continually poll the water utility to determine the restriction schedule.  It then would either adjust things automatically or at least send an email / SMS reminder that things need to be changed.
 
 
 We think this will be something that the water utility would be really interested
