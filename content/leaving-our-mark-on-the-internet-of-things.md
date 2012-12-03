@@ -25,29 +25,21 @@ that toggles between program A and B...and then program 1 and 2?...Wait a minute
 
 
 After about 30 minutes of fumbling through a crazy interface, I think I got the
-timer programmed correctly, or so I hope...guess I'll have to wait until tomorrow to find out.
+timer programmed correctly, or so I hoped...guess I'll have to wait until tomorrow to find out.
 
-Make a long story short, I lucked out that time, but I seriously wanted to do
+To make a long story short, I lucked out that time, but I seriously wanted to do
 something about the interface.
 
 
-Enter, HydroGadget (and SYN Shop, and Mini-Maker Faire LV, and Unicorns)
+Enter, HydroGadget (and SYN Shop, and Mini-Maker Faire LV, and group of BFFs)
 ===
 
-Around the same time I had really gotten interested in learning more about
-microelectronics.  The Arduino had started to become popular and entry level
-electronics had never been easier to work with.
+So after wandering aimlessly trying to learn microelectronics, I had assembled a
+few kits, played with the Arduino -- but I really didn't understand what I was
+doing.  I was just following recipes that someone else had designed.
 
 
-I built a few kits, played with the Arduino, but I never really went past the
-basics.  All the time, I had been thinking about building a new irrigation timer,
-but I didn't see a very elegent solution using the Arduino as the controller.
-
-
-Adding networking and a web interface would add additional expense  
-
-
-
-
-
-
+With the upcoming [Las Vegas Mini Maker Faire](http://makerfairevegas.com/ "Las
+Vegas Mini Maker Faire"), I really wanted to throw my hat into the ring as a
+maker.  I'm currently the president of [SYN Shop](https://synshop.org/ "SYN Shop")
+and I have nothing to show for myself.
