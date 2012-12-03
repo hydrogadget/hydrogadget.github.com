@@ -38,3 +38,14 @@ Around the same time I had really gotten interested in learning more about
 microelectronics.  The Arduino had started to become popular and entry level
 electronics had never been easier to work with.
 
+
+I built a few kits, played with the Arduino, but I never really went past the
+basics.  All the time, I had been thinking about building a new irrigation timer,
+but I didn't see a very elegent solution using the Arduino as the controller.
+
+
+Adding networking and a web interface would add additional expense  
+
+
+
+
