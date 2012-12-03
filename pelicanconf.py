@@ -15,7 +15,7 @@ TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'Blog'
 DATE_FORMAT = {
-    'en': '%a, %d %b %Y',
+    'en': '%a, %b %d %Y',
 }
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -38,6 +38,6 @@ DEFAULT_PAGINATION = 10
 # I dont think this works the way I thought it would.
 # Sadface.
 
-LOGOTEXT = 'HydroGadget'
+#LOGOTEXT = 'HydroGadget'
 #LOGOIMAGE = '/theme/images/hydrogadget.png'
-LOGOIMAGE = 'http://i.imgur.com/g6huB.png'
+#LOGOIMAGE = 'http://i.imgur.com/g6huB.png'
