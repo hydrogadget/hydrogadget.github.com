@@ -1,4 +1,4 @@
-Date: 2012-12-03
+Date: 2012-12-02
 Title: Dear Wire Inductance..Go To Hell!
 Tags: Hardware Startup, Power Supply, Hurt Feelings
 Category: Design
