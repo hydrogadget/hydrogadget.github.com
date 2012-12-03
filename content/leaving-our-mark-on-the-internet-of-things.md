@@ -43,3 +43,10 @@ With the upcoming [Las Vegas Mini Maker Faire](http://makerfairevegas.com/ "Las
 Vegas Mini Maker Faire"), I really wanted to throw my hat into the ring as a
 maker.  I'm currently the president of [SYN Shop](https://synshop.org/ "SYN Shop")
 and I have nothing to show for myself.
+
+
+Pulling in a few friends that I work with (Charles and Mike), we all decided that
+we'd head down this road together.  We all have about the same level of experience
+with electronics but we all think this project sounds interesting and is going to
+be a great way to take our electronics skills to the next level.
+
