@@ -33,6 +33,7 @@ notices, but most of the time, people just get busy and forget to change their s
 with the reminder.
 
 
+
 > With the HydroGadget, we want to eliminate this by allowing the system to
 > continually poll the water utility to determine the restriction schedule.  It then
 > would either adjust things automatically or at least send an email / SMS reminder 
