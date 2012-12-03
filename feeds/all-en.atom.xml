@@ -33,10 +33,10 @@ like this:&lt;/p&gt;
 cheating using this &lt;a href="http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36-C/?qs=sGAEpiMZZMtwaiKVUtQsNemMZL4TplJBqOl7845nWHA%3d"&gt;fancy-pants
 converter&lt;/a&gt;,
 we will suck it for now...probably :-)&lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Power Supply"></category><category term="Hurt Feelings"></category></entry><entry><title>Fire up Microsoft Project and find a PMP!</title><link href="http://hydrogadget.org/2012/11/19/fire-up-microsoft-project-and-find-a-pmp/" rel="alternate"></link><updated>2012-11-19T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-11-19:2012/11/19/fire-up-microsoft-project-and-find-a-pmp/</id><summary type="html">&lt;p&gt;Ok, not really...but Charles, Mike and myself have been meeting on a regular basis for about a month
-now and we've come up with a dumptruck load of design requirments.  We've pared
+now and we've come up with a dump truck load of design requirements.  We've pared
 it down to a few that we think we can make for the Feb 2nd LV Mini Maker
 Faire deadline:&lt;/p&gt;
-&lt;h3&gt;Phase One Reqirements&lt;/h3&gt;
+&lt;h3&gt;Phase One Requirements&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Must be inexpensive to build.&lt;/li&gt;
 &lt;li&gt;Must have a sensible and intuitive web / mobile interface.&lt;/li&gt;
@@ -51,16 +51,16 @@ sprinkler controllers, but none of them had the ability to communicate with a
 third party.  &lt;/p&gt;
 &lt;p&gt;Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
 watering schedules.  These change on a quarterly basis and usually
-customers are notifed via a postcard to adjust them.  People sometimes ignore the
+customers are notified via a postcard to adjust them.  People sometimes ignore the
 notices, but most of the time, people just forget to change the schedules, even
 with the reminder.&lt;/p&gt;
-&lt;p&gt;With the HydroGadget, we want to elimate this by allowing the system to
+&lt;p&gt;With the HydroGadget, we want to eliminate this by allowing the system to
 continually poll the water utility to determine the restriction schedule.  It then
 would either adjust things automatically or at least send an email / SMS reminder 
 that things need to be changed.&lt;/p&gt;
 &lt;p&gt;We think this will be something that the water utility would be really interested
 in as well.  Eliminating water waste is easy once it is highly automated.&lt;/p&gt;
-&lt;p&gt;Additionally, we'd like to use the HydroGadget as a demostration platform for
+&lt;p&gt;Additionally, we'd like to use the HydroGadget as a demonstration platform for
 showing how valuable public data APIs are.  Our phase one plans are to screen
 scrape the water utility's website to determine the restriction schedule, but
 eventually we'd like to work with them to develop a web API that the HydroGadget
