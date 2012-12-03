@@ -60,4 +60,4 @@ like this:
 After a lot of back and forth, I decided that the even though it feels like
 cheating using this [fancy-pants
 converter](http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36-C/?qs=sGAEpiMZZMtwaiKVUtQsNemMZL4TplJBqOl7845nWHA%3d),
-but for phase one, nobody's gonna complain...probably!  :)
+we will suck it for now...probably :-)
