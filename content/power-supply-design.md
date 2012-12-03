@@ -18,5 +18,5 @@ what components we needed to build our own power supply.
 Ordering about $16 worth of parts (RF choke?  Whatever that is!) I tried my hand
 at assembling the circuit following the data sheet from the DC-DC converter.
 
-<img src="http://i.imgur.com/kbABb.jpg?1" alt="" title="Hosted by imgur.com" />
+<img src="http://i.imgur.com/kbABb.jpg?sss" alt="" title="Hosted by imgur.com" />
 
