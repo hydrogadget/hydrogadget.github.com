@@ -2,7 +2,7 @@ Date: 2012-12-02
 Title: Leaving Our Mark on The Internet of Things
 Tags: Hardware Startup
 Category: Design
-
+Author: Brian Munroe
 How does this look?
 ===
 
