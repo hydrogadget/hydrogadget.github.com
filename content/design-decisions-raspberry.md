@@ -61,8 +61,8 @@ Radio](http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introducti
 project.  Jeff did a really excellent job of documenting his build and we
 could easily see how it could be adapted to fit our project.  However we decided that
 if we wanted to make a production run of these things then using a wireless router as
-our platform would be too wasteful (we'd have to throw away the case and the
-router power supply) and it would also be very time consuming to add the required
+our platform would be too wasteful.  Assuming we did everything locally, we'd have to throw away the case and the
+router power supply plus it would be very time consuming to add the required
 serial header to the router mainboard.
 
 
