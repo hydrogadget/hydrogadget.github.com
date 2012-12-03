@@ -35,8 +35,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-# I dont think this works the way I thought it would.
-# Sadface.
+# FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 
 #LOGOTEXT = 'HydroGadget'
 #LOGOIMAGE = '/theme/images/hydrogadget.png'
