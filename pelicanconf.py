@@ -14,7 +14,7 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'Blog'
-DATE_FORMAT = {
+DATE_FORMATS = {
     'en': '%a, %b %d %Y',
 }
 
