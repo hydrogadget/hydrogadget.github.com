@@ -5,9 +5,32 @@ Shop&lt;/a&gt; meetup.&lt;/p&gt;
 controller power supply.  To use this, we needed to convert the power from 24VAC to
 5VDC.  Having never done this before and always up for the challenge, I fired up the internet and tried to determine
 what components we needed to build our own power supply.&lt;/p&gt;
-&lt;p&gt;Ordering about $16 worth of parts (RF choke?  Whatever that is!) I tried my hand
+&lt;p&gt;Ordering about $10 worth of parts (RF choke?  Whatever that is!) I tried my hand
 at assembling the circuit following the data sheet from the DC-DC converter.&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/kbABb.jpg?sss" alt="" title="Hosted by imgur.com" /&gt;&lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Power Supply"></category><category term="Hurt Feelings"></category></entry><entry><title>Fire up Microsoft Project and find a PMP!</title><link href="http://hydrogadget.org/2012/11/19/fire-up-microsoft-project-and-find-a-pmp/" rel="alternate"></link><updated>2012-11-19T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-11-19:2012/11/19/fire-up-microsoft-project-and-find-a-pmp/</id><summary type="html">&lt;p&gt;Ok, not really...but Charles, Mike and myself have been meeting on a regular basis for about a month
+&lt;p&gt;&lt;img src="http://i.imgur.com/kbABb.jpg?sss" alt="" title="Hosted by imgur.com" /&gt;&lt;/p&gt;
+&lt;p&gt;After wiring it up, I was too tired and scared to plug it in to test it, so I
+waited until the SYN Shop meetup to get a second set of eyes on my circuit.  At
+the meetup, my good friend Josh looked over the converter datasheet and my wiring
+job, gave me the thumbs up and I plugged it in.  Putting the volt meter on the
+output leads....&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Zero volts &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Awe man, now what is wrong?&lt;/p&gt;
+&lt;p&gt;I started picking apart my circuit, looking for mistakes and trying to confirm
+that I hadn't blown a part somewhere along the way.  After about 10 minutes of
+doing that and finally throwing my hands up in the air, two SYN Shop regulars, Charley and Nathan came over and started looking at what I was doing.&lt;/p&gt;
+&lt;p&gt;Charley asked a few basic questions and finally said, "This circuit is way too
+sensitive to inductance for you to be using that rat's nest of jumpers.  You need
+to use perfboard and much shorter wire lengths".&lt;/p&gt;
+&lt;p&gt;Nathan confirmed Charley's determination and retold a story about how he too had
+been bitten my this same exact problem.  However, instead of telling me "good
+luck!", Nathan went over to his box of components and pulled out an all in one
+DC-DC converter, handed it to me and said "here, just use this"&lt;/p&gt;
+&lt;p&gt;So now, instead of this wild mess of wires and various components (I did learn
+what the RF choke does!  Thanks Charley!), the HydroGadget power circuit looks
+like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=http://i.imgur.com/lZaf4.jpg" title="Hosted by imgur.com" /&gt;&lt;/p&gt;
+&lt;p&gt;After a lot of back and forth, I decided that the even though it feels like
+cheating using &lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Power Supply"></category><category term="Hurt Feelings"></category></entry><entry><title>Fire up Microsoft Project and find a PMP!</title><link href="http://hydrogadget.org/2012/11/19/fire-up-microsoft-project-and-find-a-pmp/" rel="alternate"></link><updated>2012-11-19T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-11-19:2012/11/19/fire-up-microsoft-project-and-find-a-pmp/</id><summary type="html">&lt;p&gt;Ok, not really...but Charles, Mike and myself have been meeting on a regular basis for about a month
 now and we've come up with a dumptruck load of design requirments.  We've pared
 it down to a few that we think we can make for the Feb 2nd LV Mini Maker
 Faire deadline:&lt;/p&gt;
