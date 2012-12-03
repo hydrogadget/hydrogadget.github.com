@@ -1,9 +1,29 @@
 Date: 2012-12-02
-Title: Leaving Our Mark on The Internet of Things
+Title: HydroGadget: Leaving Our Mark on The Internet of Things
 Tags: Hardware Startup
 Category: Design
 Author: Brian Munroe
-How does this look?
+
+Do tell, what is a HydroGadget?
 ===
 
-Hello, this is a test
+__A personal commentary by one the HydroGadget team member__
+
+
+So a while back, I was standing in my garage, middle of the night, trying to figure out how to program
+my sprinkler timer to meet the new watering restrictions that the city had inacted
+in Las Vegas.
+
+
+I wanted to schedule it to water three days a week, twice a day...Ok, that seems
+easy enough, right?  Lets see here, what is this dial do...how about this thing
+that toggles between program A and B...and then program 1 and 2?...Wait a minute, A and B?
+1 and 2?  What does that mean?
+
+
+**WHO DESIGNED THIS THING**
+
+
+After about 30 minutes of fumbling through this crazy interface, I think I got the
+timer programmed correctly, or so I hope.
+

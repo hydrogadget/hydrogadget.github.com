@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>HydroGadget</title><link href="http://hydrogadget.org/" rel="alternate"></link><link href="http://hydrogadget.org/feeds/all-en.atom.xml" rel="self"></link><id>http://hydrogadget.org/</id><updated>2012-12-02T00:00:00-08:00</updated><entry><title>Leaving Our Mark on The Internet of Things</title><link href="http://hydrogadget.org/2012/12/02/leaving-our-mark-on-the-internet-of-things/" rel="alternate"></link><updated>2012-12-02T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-12-02:2012/12/02/leaving-our-mark-on-the-internet-of-things/</id><summary type="html">&lt;h1&gt;How does this look?&lt;/h1&gt;
-&lt;p&gt;Hello, this is a test&lt;/p&gt;</summary><category term="Hardware Startup"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>HydroGadget</title><link href="http://hydrogadget.org/" rel="alternate"></link><link href="http://hydrogadget.org/feeds/all-en.atom.xml" rel="self"></link><id>http://hydrogadget.org/</id><updated>2012-12-02T00:00:00-08:00</updated><entry><title>HydroGadget: Leaving Our Mark on The Internet of Things</title><link href="http://hydrogadget.org/2012/12/02/hydrogadget-leaving-our-mark-on-the-internet-of-things/" rel="alternate"></link><updated>2012-12-02T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-12-02:2012/12/02/hydrogadget-leaving-our-mark-on-the-internet-of-things/</id><summary type="html">&lt;h1&gt;Do tell, what is a HydroGadget?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;A personal commentary by one the HydroGadget team member&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So a while back, I was standing in my garage, middle of the night, trying to figure out how to program
+my sprinkler timer to meet the new watering restrictions that the city had inacted
+in Las Vegas.&lt;/p&gt;
+&lt;p&gt;I wanted to schedule it to water three days a week, twice a day...Ok, that seems
+easy enough, right?  Lets see here, what is this dial do...how about this thing
+that toggles between program A and B...and then program 1 and 2?...Wait a minute, A and B?
+1 and 2?  What does that mean?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WHO DESIGNED THIS THING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After about 30 minutes of fumbling through this crazy interface, I think I got the
+timer programmed correctly, or so I hope.&lt;/p&gt;</summary><category term="Hardware Startup"></category></entry></feed>
