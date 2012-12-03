@@ -45,10 +45,10 @@ sensitive to inductance for you to be using that rat's nest of jumpers.  You nee
 to use perfboard and much shorter wire lengths".
 
 
-Nathan confirmed Charley's determination and retold a story about how he too had
-been bitten my this same exact problem.  However, instead of telling me "good
+Nathan confirmed Charley's assessment and retold a story about how he too had
+been bitten by this same exact problem.  However, instead of telling me "good
 luck!", Nathan went over to his box of components and pulled out an all in one
-DC-DC converter, handed it to me and said "here, just use this"
+DC-DC converter, handed it to me and said "Here, just use this"
 
 So now, instead of this wild mess of wires and various components (I did learn
 what the RF choke does!  Thanks Charley!), the HydroGadget power circuit looks
@@ -58,5 +58,6 @@ like this:
 
 
 After a lot of back and forth, I decided that the even though it feels like
-cheating using 
-
+cheating using this [fancy-pants
+converter](http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36-C/?qs=sGAEpiMZZMtwaiKVUtQsNemMZL4TplJBqOl7845nWHA%3d),
+but for phase one, nobody's gonna complain...probably!  :)
