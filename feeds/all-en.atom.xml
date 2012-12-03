@@ -15,10 +15,10 @@ irrigation timer.&lt;/p&gt;
 &lt;p&gt;THE BIG ONE:  Be able to communicate with the water district to determine &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;All of the HydroGadget team members have been playing around with the Raspberry Pi
-platform and we all think it will make an excellent controller for our project.
-We originally started to take some inspiration from &lt;a href="http://mightyohm.com/blog/about/"&gt;Jeff
-Keyzer's&lt;/a&gt; &lt;a href="http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/"&gt;WiFi
+&lt;p&gt;As far as choosing a platform, all of the HydroGadget team members have been
+playing around with the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and we all think it will make an excellent controller for our project.&lt;/p&gt;
+&lt;p&gt;We originally started to take some inspiration from &lt;a href="http://mightyohm.com/blog/about/"&gt;Jeff
+Keyzer's&lt;/a&gt;&lt;a href="http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/"&gt;WiFi
 Radio&lt;/a&gt;
 project.  Jeff did a really good job of documenting this fantastic project and we
 could easily see how we could adapt it to fit our needs.  However we decided that
