@@ -39,7 +39,7 @@ Faire deadline:&lt;/p&gt;
 &lt;h3&gt;Phase One Reqirements&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Must be inexpensive to build.&lt;/li&gt;
-&lt;li&gt;Must have a sensible and inuitive (web/mobile) interface.&lt;/li&gt;
+&lt;li&gt;Must have a sensible and intuitive web / mobile interface.&lt;/li&gt;
 &lt;li&gt;Must minimize waste - should act as a drop-in replacement for an existing residential
 irrigation timer.&lt;/li&gt;
 &lt;li&gt;THE BIG ONE:  Must be able to communicate with the water utility to determine

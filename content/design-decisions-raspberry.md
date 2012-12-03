@@ -13,7 +13,7 @@ Faire deadline:
 ### Phase One Reqirements ###
 
 1.  Must be inexpensive to build.
-2.  Must have a sensible and inuitive (web/mobile) interface.
+2.  Must have a sensible and intuitive web / mobile interface.
 3.  Must minimize waste - should act as a drop-in replacement for an existing residential
 irrigation timer.
 4.  THE BIG ONE:  Must be able to communicate with the water utility to determine
