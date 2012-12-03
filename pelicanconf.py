@@ -34,5 +34,6 @@ DEFAULT_PAGINATION = 10
 # I dont think this works the way I thought it would.
 # Sadface.
 
-#LOGOTEXT = 'HydroGadget'
+LOGOTEXT = 'HydroGadget'
 #LOGOIMAGE = '/theme/images/hydrogadget.png'
+LOGOIMAGE = 'http://i.imgur.com/g6huB.png'
