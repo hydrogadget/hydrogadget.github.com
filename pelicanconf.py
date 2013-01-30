@@ -6,6 +6,8 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = u"HydroGadget"
 SITEURL = 'http://hydrogadget.org'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 GOOGLE_ANALYTICS = 'UA-36766611-1'
 GITHUB_URL = 'https://github.com/hydrogadget/'
