@@ -6,4 +6,4 @@ Author: Mike Walker
 
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dERFbkRxZFBYUkdENEV4aV9aSkJETWc6MQ" width="760" height="641" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-[Contact Us](info@hydrogadget.org)
+[Contact Us](mailto:info@hydrogadget.org)
