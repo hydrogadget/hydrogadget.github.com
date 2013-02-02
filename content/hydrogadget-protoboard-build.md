@@ -16,4 +16,4 @@ Output board:
 
 -EM
 
-Eric's OpenSouce Hardware Projects can be found on his blog: (http://smokingcircuits.me/)
+Eric's OpenSouce Hardware Projects can be found on his blog: [SmokingCircuits.me](http://smokingcircuits.me/)
