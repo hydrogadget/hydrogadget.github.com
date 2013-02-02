@@ -12,4 +12,4 @@ The output board is not nearly as interesting.  A ribbon cable connecting the ou
 
 -EM
 
-Eric's OpenSouce Hardware Projects can be found on his blog: http://smokingcircuits.me/
+Eric's OpenSouce Hardware Projects can be found on his blog: (http://smokingcircuits.me/)
