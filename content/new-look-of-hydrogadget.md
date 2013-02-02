@@ -17,3 +17,5 @@ Las Vegas, NV 89101
 For more details, including ticket and parking information, check out this [link](http://makerfairevegas.com/las-vegas-mini-maker-faire-is-here/).
 
 See you at the faire!
+
+<img src="http://makerfairevegas.com/wp-content/uploads/2012/08/LasVegas-MMF-011.png" alt="Their awesome shiny logo" />
