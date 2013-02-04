@@ -21,26 +21,10 @@ point of wanting to buy the prototype as is.
 I'm not 100% sure it is clear from the previous blog posts as to why we decided
 to do this.  So I'll recap a little:
 
-    * Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could
-      build a better interface then the existing one.  HydroGadget was born out of
-      frustration trying to use a bizzaro user interface that not even my
-      landscaper could figure out (seriously).  I followed the natural progression
-      of things and decided it should be a web app for sure.
+* Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro user interface that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure.
 
-    * Water Conservation - In Nevada we have drought restriction schedules that
-      must be followed, otherwise you risk the run of being fined or shamed into
-      compliance by your neighbors.  The schedules change about every quarter and
-      I know that a lot of people usually forget.  Since the device is connected
-      to the internet already, it would be rather trivial to make it location
-      aware and in turn be able to query the local water utility to determine the
-      correct drought restriction schedule.
+* Water Conservation - In Nevada we have drought restriction schedules that must be followed, otherwise you risk the run of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware and in turn be able to query the local water utility to determine the correct drought restriction schedule.
 
-    * Practice What I Preach - As one of the founders of [SYN
-      Shop](http://synshop.org) I speak to people about making and failure and
-      learning and collaboration all the time.  My daily RSS feed is filled with
-      fantastic and mind blowing projects that people have done and I figured I'd
-      better put up or shut up.  HydroGadget was just the start of great things to
-      come.  We have a great team and MMF LV was a huge eye opening experience for
-      me.  Tons of suggestions, feature requests, collaborations.
+* Practice What I Preach - As one of the founders of [SYN Shop](http://synshop.org) I speak to people about making and failure and learning and collaboration all the time.  My daily RSS feed is filled with fantastic and mind blowing projects that people have done and I figured I'd better put up or shut up.  HydroGadget was just the start of great things to come.  We have a great team and MMF LV was a huge eye opening experience for me.  Tons of suggestions, feature requests, collaborations.
 
 
