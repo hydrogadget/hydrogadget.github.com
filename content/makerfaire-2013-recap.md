@@ -28,8 +28,8 @@ to do this.  So I'll recap a little:
 
 * Practice What I Preach - As one of the founders of [SYN Shop](http://synshop.org), I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up, lest I be considered a poseur.
 
-I also got very re-invigorated about this project after reading Chris Anderson's
-book [Makers: The Next Industrial
+I also got very re-invigorated about this project after reading [Chris
+Anderson's](https://twitter.com/chr1sa) book [Makers: The Next Industrial
 Revolution](http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950).
 The crazy thing is, the book starts off talking about irrigation timers and how he
 collaborated with Ray (sorry Ray, I don't know your last name) to build
