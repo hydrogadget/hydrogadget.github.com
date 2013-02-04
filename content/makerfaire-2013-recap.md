@@ -28,7 +28,13 @@ to do this.  So I'll recap a little:
 
 * Practice What I Preach - As one of the founders of [SYN Shop](http://synshop.org), I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up, lest I be considered a poseur.
 
-I also got very re-invigorated about this project after reading Chris Anderson's book [Makers: The Next Industrial Revolution](http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950). The crazy thing is, the book starts off talking about irrigation timers and how he collaborated with Ray (sorry Ray, I don't know your last name) to build [OpenSprinkler](http://www.opensprinkler.com/).  I met Ray at the 2012 Makerfaire San Mateo and I talked a little bit about my requirements.  He is a very nice guy and actually taught me about bridge rectifers while I was explaining my first approach, pre Raspberry Pi.  I suppose I could have borrowed from his design, but HydroGadget was supposed to be a learning exercise, at least initially.
+I also got very re-invigorated about this project after reading Chris Anderson's
+book [Makers: The Next Industrial
+Revolution](http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950).
+The crazy thing is, the book starts off talking about irrigation timers and how he
+collaborated with Ray (sorry Ray, I don't know your last name) to build
+[OpenSprinkler](http://www.opensprinkler.com/).  I met Ray at the 2012 Makerfaire
+San Mateo and he and I talked a little bit about my requirements.  He is a very nice guy and actually taught me about bridge rectifers while I was explaining my first approach, pre Raspberry Pi.  I suppose I could have borrowed from his design, but HydroGadget was supposed to be a learning exercise, at least initially.
 
 I think we have a great team and MMF LV was a huge eye opening experience for us.  Tons of suggestions, feature requests, collaborations.  I figured one or two people would be interested, but the design points really struck a chord with makerfaire attendees, much to my surpise.  We are taking a little breather, but definitely going to regroup and figure out what our next step is very soon.
 
