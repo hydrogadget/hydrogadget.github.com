@@ -7,17 +7,17 @@ and b) more then just hot air about a non existent project.&lt;/p&gt;
 electronics.  That power supply was a tricky little guy.  Luckily for us, Eric
 worked through a lunch break and produced something that didn't constantly let out
 the blue smoke and / or destroy the Raspberry Pi.&lt;/p&gt;
-&lt;p&gt;People were genuinely excited about it.  I explained the reason why I decided to
+&lt;p&gt;In summary, people were genuinely excited about it.  I explained the reason why I decided to
 scratch this itch and I found that people were actively agreeing with me to the
 point of wanting to buy the prototype as is.&lt;/p&gt;
 &lt;p&gt;I'm not 100% sure it is clear from the previous blog posts as to why we decided
 to do this.  So I'll recap a little:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro UI that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure.&lt;/p&gt;
+&lt;p&gt;Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro UI that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure. At the final hour I added a smartphone / mobile UI too.  All it does is allow you to turn valves on or off remotely, but it is super helpful for troubleshooting sprinkler head repairs.  You no longer have to run around to the front of the house to turn on the valve and then run back to where you were working.  Just fire up your phone.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Water Conservation - In Southern Nevada, we have drought restriction schedules that have to be followed, otherwise you run the risk of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware.  By doing so, it could then query the local water utility and automatically adjust your watering days accordingly (or atleast pester you via email / sms / twitter / facebook / irc / jabber / etc until you do so :-)&lt;/p&gt;
+&lt;p&gt;Water Conservation - In Southern Nevada, we have drought restriction schedules that have to be followed, otherwise you run the risk of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware.  By doing so, it could then query the local water utility and automatically adjust your watering days accordingly (or at least pester you via email / sms / twitter / facebook / irc / jabber / etc until you do so :-)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Practice What I Preach - As one of the founders of &lt;a href="http://synshop.org"&gt;SYN Shop&lt;/a&gt;, I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up, lest I be considered a poseur.&lt;/p&gt;
