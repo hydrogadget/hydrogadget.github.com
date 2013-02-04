@@ -12,7 +12,8 @@ and b) more then just hot air about a non existent project.
 
 A HUGE thanks to [Eric](http://smokingcircuits.me/) for taking over the
 electronics.  That power supply was a tricky little guy.  Luckily for us, Eric
-worked through a lunch break and produced what we have today.
+worked through a lunch break and produced something that didn't constantly let out
+the blue smoke and / or destroy the Raspberry Pi.
 
 People were genuinely excited about it.  I explained the reason why I decided to
 scratch this itch and I found that people were actively agreeing with me to the
@@ -23,8 +24,12 @@ to do this.  So I'll recap a little:
 
 * Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro user interface that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure.
 
-* Water Conservation - In Nevada we have drought restriction schedules that must be followed, otherwise you risk the run of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware and in turn be able to query the local water utility to determine the correct drought restriction schedule.
+* Water Conservation - In Nevada we have drought restriction schedules that have to be followed, otherwise you run the risk of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware.  By doing so, it could now query the local water utility to determine the correct drought restriction schedule.
 
-* Practice What I Preach - As one of the founders of [SYN Shop](http://synshop.org) I speak to people about making and failure and learning and collaboration all the time.  My daily RSS feed is filled with fantastic and mind blowing projects that people have done and I figured I'd better put up or shut up.  HydroGadget was just the start of great things to come.  We have a great team and MMF LV was a huge eye opening experience for me.  Tons of suggestions, feature requests, collaborations.
+* Practice What I Preach - As one of the founders of [SYN Shop](http://synshop.org) I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up.
 
+I also got very re-invigorated about this project after reading Chris Anderson's Book [Makers: The Next Industrial Revolution](http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950). The crazy thing is, the book starts off talking about irrigation timers and how he collaborated with Ray (sorry Ray, I don't know your last name) to build [OpenSprinkler](http://www.opensprinkler.com/).  I met Ray at the 2012 Makerfaire San Mateo and I talked a little bit about my requirements.  I suppose I could have borrowed from his design, but HydroGadget was supposed initially be a learning exercise.
 
+We have a great team and MMF LV was a huge eye opening experience for us.  Tons of suggestions, feature requests, collaborations.  I figured one or two people would be interested, but the design points really struck a chord with makerfaire attendees, much to my surpise.  We are taking a little breather, but definitely going to regroup and figure out what our next step is very soon.
+
+If you are interested in keeping informed about the progress of HydroGadget, [please take this little survey](http://hydrogadget.org/info/) and we'll be in touch soon.
