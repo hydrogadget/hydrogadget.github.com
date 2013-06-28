@@ -6,6 +6,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = u"HydroGadget"
 SITEURL = 'http://hydrogadget.org'
+#SITESUBTITLE = 'The Raspberry Pi Powered Irrigation System'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
@@ -21,6 +22,7 @@ DATE_FORMATS = {
 }
 
 DELETE_OUTPUT_DIRECTORY = True
+THEME = 'hydrogadget-theme'
 
 # Blogroll
 LINKS =  (
