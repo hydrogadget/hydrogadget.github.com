@@ -53,8 +53,57 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././2013/02/03/mini-makerfaire-lv-the-aftermath/">Mini-Makerfaire LV: The aftermath</a></h1> 
+                    <h1 class="entry-title"><a href=".././2013/03/31/hydrogadget-rev-0f-schematic-pcb-layout/">HydroGadget Rev 0.F Schematic & PCB Layout</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2013-03-31T00:00:00">
+                Sun, Mar 31 2013
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href=".././author/eric-mcfall.html">Eric McFall</a>
+        </address>
+        
+<p>In <a href=".././category/design.html">Design</a>. </p>
+<p>tags: <a href=".././tag/hardware.html">Hardware</a></p>
+
+
+</footer><!-- /.post-info --><p>I really meant to get this finished and published a month ago, but life got in the way.  Put in a whole lot of extra hours producing a special one time Cirque du Soleil production in our showroom to benefit “One Drop“, a world water access charity.  The event was a huge success bringing awareness and financial support for One Drop, but it was a lot of work to get it there.</p>
+<p>I tweaked a couple of things on the design schematic to make testing the performance of the circuits a bit easier.  I have a handful of header and shunt sets along the power paths to allow me to interrupt the trace and measure current passing from one component to the next.  I’m becoming less and less fond of my power supply design, so don’t be surprised if you see something completely different on the next revision.  I also split up the main filtering capacitor into three separate smaller capacitors.  Something smells fishy about my ripple calculations and this allow me to easily add filter capacitance in stages and see how my circuit responds.  If I do end up using this basic power supply design I want to know how close I am to the margins.  There is also an additional LED that is going to indicate the health of the programs running on the Raspberry Pi.  If everything is healthy it should blink briefly every 5 seconds or so.  If the LED is stuck on or doesn’t blink, we know something has crashed on the Pi and an investigation is in order.</p>
+<p>One issue that we are trying to tackle is how do we initially configure the HydroGadget network settings and how would adjust those settings if we changed the name or password of the wireless network it attaches to.  We decided that a network settings reset switch would be needed to put the HydroGadget into an ad hoc wireless mode to allow a computer or phone to connect directly to the HydroGadget.  Once the HydroGadget is told what network to attach to and what password to use it would then go back to a client mode and connect to the wireless network like any other device would.  One of these classic chicken and egg problems.  A simple tactile push button and some resistors and we now have a magic reset switch.  At the request of one of our programmers, I added a simple serial in/out port to allow for debugging code.</p>
+<p>The layout is definitely a work in progress.  I’m pretty sure the design of the output side is fairly solid, so I spent a fair bit of time getting that section of the layout nice and clean.  As I said earlier, the power supply concept might very well change completely, so that side of the layout isn’t nearly as polished.  I had to back mount the filter capacitors to try to keep the profile reasonably tight so designing a case for this wouldn’t be a complete disaster.  Since I had the space for the LM317 to mount to the board, I poured a large ground plan on both sides to act as a little heatsink and riddled the section directly under the LM317 with vias to help transfer heat to the back plane.</p>
+<p>I fully expect there to be at least one big mistake on this board revision that will require all types of fun hacking.  I’ll be sure to post pictures of my butchering.  From talking with seasoned professionals, you never get it right on the first spin.  I sent in my gerber set tonight to my friends at OSHPark so I should have three boards show up in my mailbox in about 14 days.  I have included all my source files in the link below.  Stay tuned for the next update.</p>
+<p><a href="https://www.box.com/s/bhgditxoie52h2e5ruh8">Download: HydroGadget-Rev-0.F</a></p>
+<p>Front Side:
+!(http://i.imgur.com/GPdDpeml.jpg)</p>
+<p>Back Side:
+!(http://i.imgur.com/fcOoYRvl.jpg)</p>
+<p>Eric's OpenSouce Hardware Projects can be found on his blog: <a href="http://smokingcircuits.me/">SmokingCircuits.me</a></p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href=".././2013/02/03/mini-makerfaire-lv-the-aftermath/" rel="bookmark"
+                           title="Permalink to Mini-Makerfaire LV: The aftermath">Mini-Makerfaire LV: The aftermath</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2013-02-03T00:00:00">
                 Sun, Feb 03 2013
         </abbr>
@@ -68,54 +117,16 @@
 <p>tags: <a href=".././tag/design.html">Design</a><a href=".././tag/mini-makerfaire-lv.html">Mini Makerfaire LV</a></p>
 
 
-</footer><!-- /.post-info --><p>I think it is safe to say that plenty of people were very excited to see
+</footer><!-- /.post-info -->
+                <p>I think it is safe to say that plenty of people were very excited to see
 HydroGadget in a form other then a) a mess of wires and blown up components
 and b) more then just hot air about a non existent project.</p>
 <p><img src="http://smokingcircuits.files.wordpress.com/2013/02/img_0752.jpg?w=250&h=187" alt="" title="Hosted by imgur.com" /></p>
-<p>A HUGE thanks to <a href="http://smokingcircuits.me/">Eric</a> for taking over the
-electronics.  That power supply was a tricky little guy.  Luckily for us, Eric
-worked through a lunch break and produced something that didn't constantly let out
-the blue smoke and / or simultaneously destroy the Raspberry Pi.</p>
-<p>In summary, people were genuinely excited about it.  I explained the reason why I
-wanted to scratch this itch and I found that people were actively agreeing with me to the
-point of wanting to buy the prototype as is.</p>
-<p>I'm not 100% sure it is clear from the previous blog posts as to why we decided
-to do this.  So I'll recap a little:</p>
-<ul>
-<li>
-<p>Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro UI that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure. At the final hour I added a smartphone / mobile UI too.  All it does is allow you to turn valves on or off remotely, but it is super helpful for troubleshooting sprinkler head repairs.  You no longer have to run around to the front of the house to turn on the valve and then run back to where you were working.  Just fire up your phone.</p>
-</li>
-<li>
-<p>Water Conservation - In Southern Nevada, we have drought restriction schedules that must be followed, otherwise you run the risk of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware.  By doing so, it could then query the local water utility and automatically adjust your watering days accordingly (or at least pester you via email / sms / twitter / facebook / irc / jabber / <a href="http://www.twilio.com/">Twilio</a> / etc until you do so :-)</p>
-</li>
-<li>
-<p>Practice What I Preach - As one of the founders of <a href="http://synshop.org">SYN Shop</a>, I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up, lest I be considered a poseur.</p>
-</li>
-</ul>
-<p>I also got very re-invigorated about this project after reading <a href="https://twitter.com/chr1sa">Chris
-Anderson's</a> book <a href="http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950">Makers: The Next Industrial
-Revolution</a>.
-The crazy thing is, the book starts off talking about irrigation timers and how he
-collaborated with Ray (sorry Ray, I don't know your last name) to build
-<a href="http://www.opensprinkler.com/">OpenSprinkler</a>.  I met Ray at the 2012 Makerfaire
-San Mateo and he and I talked a little bit about my requirements.  He is a very nice guy and actually taught me about bridge rectifers while I was explaining my first approach, pre Raspberry Pi.  I suppose I could have borrowed from his design, but HydroGadget was supposed to be a learning exercise, at least initially.</p>
-<p>I think we have a great team and MMF LV was a huge eye opening experience for us.
-Tons of suggestions, feature requests, collaborations.  I figured one or two
-people would be interested, but the design points really struck a chord with
-makerfaire attendees, much to my surpise.  We are taking a little breather, but
-definitely going to regroup and figure out what our next step is very quickly here.</p>
-<p><center><a href="http://imgur.com/bvvm651"><img src="http://i.imgur.com/bvvm651s.jpg" title="Hosted by imgur.com"/></a> <a href="http://imgur.com/fpyB2H9"><img src="http://i.imgur.com/fpyB2H9s.jpg" title="Hosted by imgur.com"/></a> <a href="http://imgur.com/APCjz5e"><img src="http://i.imgur.com/APCjz5es.jpg" title="Hosted by imgur.com"/></a> <a href="http://imgur.com/BPAlCMR"><img src="http://i.imgur.com/BPAlCMRs.jpg" title="Hosted by imgur.com"/></a> <a href="http://imgur.com/oD9Vv9s"><img src="http://i.imgur.com/oD9Vv9ss.jpg" title="Hosted by imgur.com"/></a></center></p>
-<p>If you are interested in keeping informed about the progress of HydroGadget, <a href="http://hydrogadget.org/info/">please take this little survey</a> and we'll be in touch soon.</p>
-                </article>
+<p>A HUGE thanks to <a href="http://smokingcircuits.me/">Eric</a> for taking ...</p>
+                <a class="readmore" href=".././2013/02/03/mini-makerfaire-lv-the-aftermath/">read more</a>
                 
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-            
-        
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
             

@@ -53,8 +53,57 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././2013/01/26/hydrogadget-protoboard-build/">HydroGadget Protoboard Build</a></h1> 
+                    <h1 class="entry-title"><a href=".././2013/03/31/hydrogadget-rev-0f-schematic-pcb-layout/">HydroGadget Rev 0.F Schematic & PCB Layout</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2013-03-31T00:00:00">
+                Sun, Mar 31 2013
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href=".././author/eric-mcfall.html">Eric McFall</a>
+        </address>
+        
+<p>In <a href=".././category/design.html">Design</a>. </p>
+<p>tags: <a href=".././tag/hardware.html">Hardware</a></p>
+
+
+</footer><!-- /.post-info --><p>I really meant to get this finished and published a month ago, but life got in the way.  Put in a whole lot of extra hours producing a special one time Cirque du Soleil production in our showroom to benefit “One Drop“, a world water access charity.  The event was a huge success bringing awareness and financial support for One Drop, but it was a lot of work to get it there.</p>
+<p>I tweaked a couple of things on the design schematic to make testing the performance of the circuits a bit easier.  I have a handful of header and shunt sets along the power paths to allow me to interrupt the trace and measure current passing from one component to the next.  I’m becoming less and less fond of my power supply design, so don’t be surprised if you see something completely different on the next revision.  I also split up the main filtering capacitor into three separate smaller capacitors.  Something smells fishy about my ripple calculations and this allow me to easily add filter capacitance in stages and see how my circuit responds.  If I do end up using this basic power supply design I want to know how close I am to the margins.  There is also an additional LED that is going to indicate the health of the programs running on the Raspberry Pi.  If everything is healthy it should blink briefly every 5 seconds or so.  If the LED is stuck on or doesn’t blink, we know something has crashed on the Pi and an investigation is in order.</p>
+<p>One issue that we are trying to tackle is how do we initially configure the HydroGadget network settings and how would adjust those settings if we changed the name or password of the wireless network it attaches to.  We decided that a network settings reset switch would be needed to put the HydroGadget into an ad hoc wireless mode to allow a computer or phone to connect directly to the HydroGadget.  Once the HydroGadget is told what network to attach to and what password to use it would then go back to a client mode and connect to the wireless network like any other device would.  One of these classic chicken and egg problems.  A simple tactile push button and some resistors and we now have a magic reset switch.  At the request of one of our programmers, I added a simple serial in/out port to allow for debugging code.</p>
+<p>The layout is definitely a work in progress.  I’m pretty sure the design of the output side is fairly solid, so I spent a fair bit of time getting that section of the layout nice and clean.  As I said earlier, the power supply concept might very well change completely, so that side of the layout isn’t nearly as polished.  I had to back mount the filter capacitors to try to keep the profile reasonably tight so designing a case for this wouldn’t be a complete disaster.  Since I had the space for the LM317 to mount to the board, I poured a large ground plan on both sides to act as a little heatsink and riddled the section directly under the LM317 with vias to help transfer heat to the back plane.</p>
+<p>I fully expect there to be at least one big mistake on this board revision that will require all types of fun hacking.  I’ll be sure to post pictures of my butchering.  From talking with seasoned professionals, you never get it right on the first spin.  I sent in my gerber set tonight to my friends at OSHPark so I should have three boards show up in my mailbox in about 14 days.  I have included all my source files in the link below.  Stay tuned for the next update.</p>
+<p><a href="https://www.box.com/s/bhgditxoie52h2e5ruh8">Download: HydroGadget-Rev-0.F</a></p>
+<p>Front Side:
+!(http://i.imgur.com/GPdDpeml.jpg)</p>
+<p>Back Side:
+!(http://i.imgur.com/fcOoYRvl.jpg)</p>
+<p>Eric's OpenSouce Hardware Projects can be found on his blog: <a href="http://smokingcircuits.me/">SmokingCircuits.me</a></p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href=".././2013/01/26/hydrogadget-protoboard-build/" rel="bookmark"
+                           title="Permalink to HydroGadget Protoboard Build">HydroGadget Protoboard Build</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2013-01-26T00:00:00">
                 Sat, Jan 26 2013
         </abbr>
@@ -68,23 +117,12 @@
 <p>tags: <a href=".././tag/hardware.html">Hardware</a></p>
 
 
-</footer><!-- /.post-info --><p>It’s alive! Sometimes protoboard builds are not exactly great looking.  This power supply board is a good example.  I’m rather pleased however, how the output board came out.  I couldn’t locate a fuse of the right size so I just dropped a machine screw I had laying around so I could run tests.  The power supply board passed a 1.5A load stress test for a full hour with no signs of distress.  Should be ready to go for Las Vegas Mini Maker Faire!</p>
-<p>Power supply board:</p>
-<p><a href="http://imgur.com/2ML1Os0"><img src="http://i.imgur.com/2ML1Os0l.jpg" title="Hosted by imgur.com" alt="" /></a></p>
-<p>Output board:</p>
-<p><a href="http://imgur.com/xErJvDv"><img src="http://i.imgur.com/xErJvDvl.jpg" title="Hosted by imgur.com" alt="" /></a></p>
-<p>-EM</p>
-<p>Eric's OpenSouce Hardware Projects can be found on his blog: <a href="http://smokingcircuits.me/">SmokingCircuits.me</a></p>
-                </article>
+</footer><!-- /.post-info -->
+                <p>It’s alive! Sometimes protoboard builds are not exactly great looking.  This power supply board is a good example.  I’m rather pleased however, how the output board came out.  I couldn’t locate a fuse of the right size so I just dropped a machine screw I had laying ...</p>
+                <a class="readmore" href=".././2013/01/26/hydrogadget-protoboard-build/">read more</a>
                 
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-            
-        
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
             
