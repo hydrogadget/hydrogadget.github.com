@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>HydroGadget</title><link href="http://hydrogadget.org/" rel="alternate"></link><link href="http://hydrogadget.org/feeds/design.atom.xml" rel="self"></link><id>http://hydrogadget.org/</id><updated>2013-04-26T00:00:00-07:00</updated><entry><title>HydroGadget Rev 0.F PCB Prototype Build Completed</title><link href="http://hydrogadget.org/2013/04/26/hydrogadget-rev-0f-pcb-prototype-build-completed/" rel="alternate"></link><updated>2013-04-26T00:00:00-07:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-04-26:2013/04/26/hydrogadget-rev-0f-pcb-prototype-build-completed/</id><summary type="html">&lt;p&gt;The title pretty much sums it up.  My first prototype build for the HydroGadget was a success.  I have a decent list of issues that need to be addressed for the next build, but for torture testing, this should work out fine.  I think the plan is to have this prototype build on display at the SynShop booth at First Friday on May 3rd, and at the Las Vegas Science and Technology Festival on May 4th.  I should be manning the booth on the 3rd, but my partners in crime will be manning the both on the 4th as I’ll be in class.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.box.com/s/2nprqbkx1dbkpmpzon5c"&gt;Download: HydroGadget Rev 0.F Bug List&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;img alt="Front" src="http://i.imgur.com/iUTXga8l.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Back" src="http://i.imgur.com/4inrtoVl.jpg" /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category></entry><entry><title>HydroGadget Rev 0.F First Build Notes</title><link href="http://hydrogadget.org/2013/04/17/hydrogadget-rev-0f-first-build-notes/" rel="alternate"></link><updated>2013-04-17T00:00:00-07:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-04-17:2013/04/17/hydrogadget-rev-0f-first-build-notes/</id><summary type="html">&lt;p&gt;Started assembly of the HydroGadget Rev 0.F.  The parts that I was most worried about fitting correctly on the PCB are fitting perfectly.  Sweet!  I’ve been burnt in the not so distant past by not paying close attention to mechanical tolerances on datasheets.  However, I did manage to ignore the rather simple and mundane.  When doing the layout I laid out for 1/8W resistors, but put 1/4W resistors in my bill of materials.  Since I already have the parts, I guess I’ll jam these big boys in and make changes in the next revision of the BOM.  Other notes so far: The fuse holders have a much higher profile than what I was thinking.  I’m trying to have the terminal strip be the tallest item on the board to make the design for the enclosure easier, so gotta find shorter fuse posts.  Mouser had a ton of them, I just need to sort through them.  Also need to move a trace that is right next to the terminal strip about 25mils or so north.  I didn’t realize the bottom of the terminal strip I selected had exposed conductors going all along the bottom.  Typical first PCB spin problems…&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;img alt="" src="http://i.imgur.com/8Vr3ctVl.jpg" /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category></entry><entry><title>HydroGadget Rev 0.F PCBs Are In</title><link href="http://hydrogadget.org/2013/04/14/hydrogadget-rev-0f-pcbs-are-in/" rel="alternate"></link><updated>2013-04-14T00:00:00-07:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-04-14:2013/04/14/hydrogadget-rev-0f-pcbs-are-in/</id><summary type="html">&lt;p&gt;Three beautiful purple prototype PCBs of HydroGadget Rev 0.F came in the mail today.  Simply cannot beat the value OSH Park offers.  I do need to track down why DipTrace didn’t tent my vias on the gerber export.  The preview within DipTrace shows the vias tented, but the gerber files it exports has the solder mask removed from the pad like it was a normal through hole.  Not that big of an issue in this circumstance, but I would like to track this down for future projects where it might very well matter.  I added these photos to the rev 0.F online document package.  Now on to finding what I goofed on this PCB spin…&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;img alt="Front Side" src="http://i.imgur.com/bz1oFmHl.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Back Side" src="http://i.imgur.com/PEKgQmIl.jpg" /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category></entry><entry><title>HydroGadget Rev 0.F Schematic &amp; PCB Layout</title><link href="http://hydrogadget.org/2013/03/31/hydrogadget-rev-0f-schematic-pcb-layout/" rel="alternate"></link><updated>2013-03-31T00:00:00-07:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-03-31:2013/03/31/hydrogadget-rev-0f-schematic-pcb-layout/</id><summary type="html">&lt;p&gt;I really meant to get this finished and published a month ago, but life got in the way.  Put in a whole lot of extra hours producing a special one time Cirque du Soleil production in our showroom to benefit “One Drop“, a world water access charity.  The event was a huge success bringing awareness and financial support for One Drop, but it was a lot of work to get it there.&lt;/p&gt;
+&lt;p&gt;I tweaked a couple of things on the design schematic to make testing the performance of the circuits a bit easier.  I have a handful of header and shunt sets along the power paths to allow me to interrupt the trace and measure current passing from one component to the next.  I’m becoming less and less fond of my power supply design, so don’t be surprised if you see something completely different on the next revision.  I also split up the main filtering capacitor into three separate smaller capacitors.  Something smells fishy about my ripple calculations and this allow me to easily add filter capacitance in stages and see how my circuit responds.  If I do end up using this basic power supply design I want to know how close I am to the margins.  There is also an additional LED that is going to indicate the health of the programs running on the Raspberry Pi.  If everything is healthy it should blink briefly every 5 seconds or so.  If the LED is stuck on or doesn’t blink, we know something has crashed on the Pi and an investigation is in order.&lt;/p&gt;
+&lt;p&gt;One issue that we are trying to tackle is how do we initially configure the HydroGadget network settings and how would adjust those settings if we changed the name or password of the wireless network it attaches to.  We decided that a network settings reset switch would be needed to put the HydroGadget into an ad hoc wireless mode to allow a computer or phone to connect directly to the HydroGadget.  Once the HydroGadget is told what network to attach to and what password to use it would then go back to a client mode and connect to the wireless network like any other device would.  One of these classic chicken and egg problems.  A simple tactile push button and some resistors and we now have a magic reset switch.  At the request of one of our programmers, I added a simple serial in/out port to allow for debugging code.&lt;/p&gt;
+&lt;p&gt;The layout is definitely a work in progress.  I’m pretty sure the design of the output side is fairly solid, so I spent a fair bit of time getting that section of the layout nice and clean.  As I said earlier, the power supply concept might very well change completely, so that side of the layout isn’t nearly as polished.  I had to back mount the filter capacitors to try to keep the profile reasonably tight so designing a case for this wouldn’t be a complete disaster.  Since I had the space for the LM317 to mount to the board, I poured a large ground plan on both sides to act as a little heatsink and riddled the section directly under the LM317 with vias to help transfer heat to the back plane.&lt;/p&gt;
+&lt;p&gt;I fully expect there to be at least one big mistake on this board revision that will require all types of fun hacking.  I’ll be sure to post pictures of my butchering.  From talking with seasoned professionals, you never get it right on the first spin.  I sent in my gerber set tonight to my friends at OSHPark so I should have three boards show up in my mailbox in about 14 days.  I have included all my source files in the link below.  Stay tuned for the next update.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.box.com/s/bhgditxoie52h2e5ruh8"&gt;Download: HydroGadget-Rev-0.F&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;img alt="Front Side" src="http://i.imgur.com/GPdDpeml.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Back Side" src="http://i.imgur.com/fcOoYRvl.jpg" /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category></entry><entry><title>Mini-Makerfaire LV: The aftermath</title><link href="http://hydrogadget.org/2013/02/03/mini-makerfaire-lv-the-aftermath/" rel="alternate"></link><updated>2013-02-03T00:00:00-08:00</updated><author><name>Brian Munroe &lt;brian.e.munroe@gmail.com&gt;</name></author><id>tag:hydrogadget.org,2013-02-03:2013/02/03/mini-makerfaire-lv-the-aftermath/</id><summary type="html">&lt;p&gt;I think it is safe to say that plenty of people were very excited to see
+HydroGadget in a form other then a) a mess of wires and blown up components
+and b) more then just hot air about a non existent project.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://smokingcircuits.files.wordpress.com/2013/02/img_0752.jpg?w=250&amp;h=187" alt="" title="Hosted by imgur.com" /&gt;&lt;/p&gt;
+&lt;p&gt;A HUGE thanks to &lt;a href="http://smokingcircuits.me/"&gt;Eric&lt;/a&gt; for taking over the
+electronics.  That power supply was a tricky little guy.  Luckily for us, Eric
+worked through a lunch break and produced something that didn't constantly let out
+the blue smoke and / or simultaneously destroy the Raspberry Pi.&lt;/p&gt;
+&lt;p&gt;In summary, people were genuinely excited about it.  I explained the reason why I
+wanted to scratch this itch and I found that people were actively agreeing with me to the
+point of wanting to buy the prototype as is.&lt;/p&gt;
+&lt;p&gt;I'm not 100% sure it is clear from the previous blog posts as to why we decided
+to do this.  So I'll recap a little:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Build A Better Interface - Now I'm no Jacob Nielson, but I knew I could build a better interface then the existing one.  HydroGadget was born out of frustration trying to use a bizzaro UI that not even my landscaper could figure out (seriously).  I followed the natural progression of things and decided it should be a web app for sure. At the final hour I added a smartphone / mobile UI too.  All it does is allow you to turn valves on or off remotely, but it is super helpful for troubleshooting sprinkler head repairs.  You no longer have to run around to the front of the house to turn on the valve and then run back to where you were working.  Just fire up your phone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Water Conservation - In Southern Nevada, we have drought restriction schedules that must be followed, otherwise you run the risk of being fined or shamed into compliance by your neighbors.  The schedules change about every quarter and I know that a lot of people usually forget.  Since the device is connected to the internet already, it would be rather trivial to make it location aware.  By doing so, it could then query the local water utility and automatically adjust your watering days accordingly (or at least pester you via email / sms / twitter / facebook / irc / jabber / &lt;a href="http://www.twilio.com/"&gt;Twilio&lt;/a&gt; / etc until you do so :-)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Practice What I Preach - As one of the founders of &lt;a href="http://synshop.org"&gt;SYN Shop&lt;/a&gt;, I constantly speak to people about making and failure and learning and collaboration all the time.  I figure I better put up or shut up, lest I be considered a poseur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also got very re-invigorated about this project after reading &lt;a href="https://twitter.com/chr1sa"&gt;Chris
+Anderson's&lt;/a&gt; book &lt;a href="http://www.amazon.com/Makers-The-New-Industrial-Revolution/dp/0307720950"&gt;Makers: The Next Industrial
+Revolution&lt;/a&gt;.
+The crazy thing is, the book starts off talking about irrigation timers and how he
+collaborated with Ray (sorry Ray, I don't know your last name) to build
+&lt;a href="http://www.opensprinkler.com/"&gt;OpenSprinkler&lt;/a&gt;.  I met Ray at the 2012 Makerfaire
+San Mateo and he and I talked a little bit about my requirements.  He is a very nice guy and actually taught me about bridge rectifers while I was explaining my first approach, pre Raspberry Pi.  I suppose I could have borrowed from his design, but HydroGadget was supposed to be a learning exercise, at least initially.&lt;/p&gt;
+&lt;p&gt;I think we have a great team and MMF LV was a huge eye opening experience for us.
+Tons of suggestions, feature requests, collaborations.  I figured one or two
+people would be interested, but the design points really struck a chord with
+makerfaire attendees, much to my surpise.  We are taking a little breather, but
+definitely going to regroup and figure out what our next step is very quickly here.&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="http://imgur.com/bvvm651"&gt;&lt;img src="http://i.imgur.com/bvvm651s.jpg" title="Hosted by imgur.com"/&gt;&lt;/a&gt; &lt;a href="http://imgur.com/fpyB2H9"&gt;&lt;img src="http://i.imgur.com/fpyB2H9s.jpg" title="Hosted by imgur.com"/&gt;&lt;/a&gt; &lt;a href="http://imgur.com/APCjz5e"&gt;&lt;img src="http://i.imgur.com/APCjz5es.jpg" title="Hosted by imgur.com"/&gt;&lt;/a&gt; &lt;a href="http://imgur.com/BPAlCMR"&gt;&lt;img src="http://i.imgur.com/BPAlCMRs.jpg" title="Hosted by imgur.com"/&gt;&lt;/a&gt; &lt;a href="http://imgur.com/oD9Vv9s"&gt;&lt;img src="http://i.imgur.com/oD9Vv9ss.jpg" title="Hosted by imgur.com"/&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in keeping informed about the progress of HydroGadget, &lt;a href="http://hydrogadget.org/info/"&gt;please take this little survey&lt;/a&gt; and we'll be in touch soon.&lt;/p&gt;</summary><category term="Design"></category><category term="Mini Makerfaire LV"></category></entry><entry><title>The New Look of HydroGadget</title><link href="http://hydrogadget.org/2013/02/01/the-new-look-of-hydrogadget/" rel="alternate"></link><updated>2013-02-01T00:00:00-08:00</updated><author><name>Mike Walker</name></author><id>tag:hydrogadget.org,2013-02-01:2013/02/01/the-new-look-of-hydrogadget/</id><summary type="html">&lt;p&gt;Just in time for the &lt;a href="http://makerfairevegas.com/"&gt;Las Vegas Mini Maker Faire&lt;/a&gt;, HydroGadget has a shiny new logo!&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/OF6IbHQ.png" alt="Awesome shiny logo" /&gt;&lt;/p&gt;
+&lt;p&gt;Be sure to check out our Demo Booth tomorrow, February 2nd 2013!&lt;/p&gt;
+&lt;p&gt;Historic 5th Street School&lt;br /&gt;
+401 S 4th St&lt;br /&gt;
+Las Vegas, NV 89101  &lt;/p&gt;
+&lt;p&gt;For more details, including ticket and parking information, check out this &lt;a href="http://makerfairevegas.com/las-vegas-mini-maker-faire-is-here/"&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See you at the faire!&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://makerfairevegas.com/wp-content/uploads/2012/08/LasVegas-MMF-011.png" alt="Their awesome shiny logo" /&gt;&lt;/p&gt;</summary><category term="Logo"></category><category term="Mini Maker Faire"></category></entry><entry><title>HydroGadget Protoboard Build</title><link href="http://hydrogadget.org/2013/01/26/hydrogadget-protoboard-build/" rel="alternate"></link><updated>2013-01-26T00:00:00-08:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-01-26:2013/01/26/hydrogadget-protoboard-build/</id><summary type="html">&lt;p&gt;It’s alive! Sometimes protoboard builds are not exactly great looking.  This power supply board is a good example.  I’m rather pleased however, how the output board came out.  I couldn’t locate a fuse of the right size so I just dropped a machine screw I had laying around so I could run tests.  The power supply board passed a 1.5A load stress test for a full hour with no signs of distress.  Should be ready to go for Las Vegas Mini Maker Faire!&lt;/p&gt;
+&lt;p&gt;Power supply board:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/2ML1Os0"&gt;&lt;img src="http://i.imgur.com/2ML1Os0l.jpg" title="Hosted by imgur.com" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Output board:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/xErJvDv"&gt;&lt;img src="http://i.imgur.com/xErJvDvl.jpg" title="Hosted by imgur.com" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-EM&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category></entry><entry><title>HydroGadget Prototype Hardware Design</title><link href="http://hydrogadget.org/2013/01/25/hydrogadget-prototype-hardware-design/" rel="alternate"></link><updated>2013-01-25T00:00:00-08:00</updated><author><name>Eric McFall</name></author><id>tag:hydrogadget.org,2013-01-25:2013/01/25/hydrogadget-prototype-hardware-design/</id><summary type="html">&lt;p&gt;Early on we decided that we wanted this project to be simple enough that a person relatively new to soldering could successfully assemble the board with pretty basic tools and supplies.  This ruled out using any surface mount component and using through hole exclusively.  We also wanted to limit the number of manufacturer specific or single source components we used to make it as easy as possible for people to find parts and avoid the hassle of discontinued components.  All but one of the components are “jellybeans”; meaning they are a generic part that can be sources from many different vendors and manufacturers.&lt;/p&gt;
+&lt;p&gt;The hardware concept is actually quite simple.  Power for the HydroGadget is taken from a 24VacRMS transformer that are standard for irrigation timers as the water valves are typically 24VacRMS.  The 24VacRMS passes through four diodes and a bypass capacitor produce a rectified signal.  This feeds a LM317 variable regulator configured to limit the output to about +34Vdc.  A tiny high efficiency dc to dc switching power regulator then  produces our +5Vdc system power.  I found that even though the transformers typically used all specify 24VacRMS, I found that with only a small load, the secondary voltage can be substantially beyond 24VacRMS.  Little RMS to peak math and found that a typical transformer can spit out as high as 41VacPeak.  The little dc to dc converter I found is great, but can only handle 36Vdc input.  Enter the ever flexible LM317.  With two resistors I can set the output voltage to 34Vdc, which the dc to dc converter can easily tolerate.  The LM317 has a useful little quirk that it is stable even when the input to output voltage difference is below the dropout voltage of about 2Vdc.  When the input voltage is below 36Vdc the output voltage is equal to the input voltage minus the dropout voltage.  So in essence, the LM317 is acting like a voltage limiter for the dc to dc converter.&lt;/p&gt;
+&lt;p&gt;The output board is not nearly as interesting.  A ribbon cable connecting the output board to the Raspberry Pi feeds the +5Vdc system power as well as the +3.3Vdc logic out signals from the Pi.  The logic out signals are run through a eight channel Darlington pair IC to minimize the load on the Raspberry Pis GPIO pins.  The Darlington pair IC drives four optocouplers with triac outputs.  These weak triacs then drive a much higher capacity triac which actually switches the 24VacRMS  on and off to the valves.  Besides the inherent safety advantage the optocouplers provide, it also adds flexibility to our design to switch different or higher voltages if someone wants to do that modification.  I’m very curious to see what people end up hacking HydroGadget to do.&lt;/p&gt;
+&lt;p&gt;-EM&lt;/p&gt;
+&lt;p&gt;Eric's OpenSouce Hardware Projects can be found on his blog: &lt;a href="http://smokingcircuits.me/"&gt;SmokingCircuits.me&lt;/a&gt;&lt;/p&gt;</summary><category term="Hardware"></category><category term="Power Supply"></category></entry><entry><title>Dear Wire Inductance..Go To Hell!</title><link href="http://hydrogadget.org/2012/12/02/dear-wire-inductancego-to-hell/" rel="alternate"></link><updated>2012-12-02T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-12-02:2012/12/02/dear-wire-inductancego-to-hell/</id><summary type="html">&lt;p&gt;We got our first lesson in electical engineering 101 at last night's &lt;a href="https://synshop.org"&gt;SYN
+Shop&lt;/a&gt; meetup.&lt;/p&gt;
+&lt;p&gt;One of the requirements for the device is to use the existing irrigation
+controller power supply.  To use this, we needed to convert the power from 24VAC to
+5VDC.  Having never done this before and always up for the challenge, I fired up the internet and tried to determine
+what components we needed to build our own power supply.&lt;/p&gt;
+&lt;p&gt;Ordering about $10 worth of parts (RF choke?  Whatever that is!) I tried my hand
+at assembling the circuit following the data sheet from the DC-DC converter.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/kbABb.jpg?sss" alt="" title="Hosted by imgur.com" /&gt;&lt;/p&gt;
+&lt;p&gt;After wiring it up, I was too tired and scared to plug it in to test it, so I
+waited until the SYN Shop meetup to get a second set of eyes on my circuit.  At
+the meetup, my good friend Josh looked over the converter datasheet and my wiring
+job, gave me the thumbs up and I plugged it in.  Putting the volt meter on the
+output leads....&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Zero volts &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Awe man, now what is wrong?&lt;/p&gt;
+&lt;p&gt;I started picking apart my circuit, looking for mistakes and trying to confirm
+that I hadn't blown a part somewhere along the way.  After about 10 minutes of
+doing that and finally throwing my hands up in the air, two SYN Shop regulars, Charley and Nathan came over and started looking at what I was doing.&lt;/p&gt;
+&lt;p&gt;Charley asked a few basic questions and finally said, "This circuit is way too
+sensitive to inductance for you to be using that rat's nest of jumpers.  You need
+to use perfboard and much shorter wire lengths".&lt;/p&gt;
+&lt;p&gt;Nathan confirmed Charley's assessment and retold a story about how he too had
+been bitten by this same exact problem.  However, instead of telling me "good
+luck!", Nathan went over to his box of components and pulled out an all in one
+DC-DC converter, handed it to me and said "Here, just use this"&lt;/p&gt;
+&lt;p&gt;So now, instead of this wild mess of wires and various components (I did learn
+what the RF choke does!  Thanks Charley!), the HydroGadget power circuit looks
+like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=http://i.imgur.com/lZaf4.jpg" title="Hosted by imgur.com" /&gt;&lt;/p&gt;
+&lt;p&gt;After a lot of back and forth, I decided that the even though it feels like
+cheating using this &lt;a href="http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36-C/?qs=sGAEpiMZZMtwaiKVUtQsNemMZL4TplJBqOl7845nWHA%3d"&gt;fancy-pants
+converter&lt;/a&gt;,
+we will suck it up for now...probably :-)&lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Power Supply"></category><category term="Hurt Feelings"></category></entry><entry><title>Fire up Microsoft Project and find a PMP!</title><link href="http://hydrogadget.org/2012/11/19/fire-up-microsoft-project-and-find-a-pmp/" rel="alternate"></link><updated>2012-11-19T00:00:00-08:00</updated><author><name>Brian Munroe</name></author><id>tag:hydrogadget.org,2012-11-19:2012/11/19/fire-up-microsoft-project-and-find-a-pmp/</id><summary type="html">&lt;p&gt;Ok, not really...but Charles, Mike and myself have been meeting on a regular basis for about a month
+now and we've come up with a dump truck load of design requirements.  We've pared
+it down to a few that we think we can make for the Feb 2nd LV Mini Maker
+Faire deadline:&lt;/p&gt;
+&lt;h3&gt;Phase One Requirements&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Must be inexpensive to build.&lt;/li&gt;
+&lt;li&gt;Must have a sensible and intuitive web / mobile interface.&lt;/li&gt;
+&lt;li&gt;Must minimize waste - should act as a drop-in replacement for an existing residential
+irrigation timer.&lt;/li&gt;
+&lt;li&gt;THE BIG ONE:  Must be able to communicate with the water utility to determine
+the water restriction schedule.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Most of these requirements are pretty straightforward, but #4 is the most exciting
+to me.  Before starting this project, I googled around and found plenty of DIY
+sprinkler controllers, but none of them had the ability to communicate with a
+third party.  &lt;/p&gt;
+&lt;p&gt;Here in Southern Nevada (namely, Las Vegas), we have mandatory drought restriction
+watering schedules.  These change about three times a year and usually
+customers are notified via a postcard to adjust them.  People sometimes ignore the
+notices, but most of the time, people just get busy and forget to change their schedules, even
+with the reminder.&lt;/p&gt;
+&lt;p&gt;With the HydroGadget, we want to eliminate this by allowing the system to continually poll the water utility to determine the restriction schedule.  It then would either adjust things automatically or at least send an email / SMS reminder that things need to be changed.&lt;/p&gt;
+&lt;p&gt;We think this will be something that the water utility would be really interested
+in as well.  Eliminating water waste is easy once it is highly automated.&lt;/p&gt;
+&lt;p&gt;Additionally, we'd like to use the HydroGadget as a demonstration platform for
+showing how valuable public data APIs are.  Our phase one plans are to screen
+scrape the water utility's website to determine the restriction schedule, but
+eventually we'd like to work with them to develop a web API that the HydroGadget
+and other devices could leverage.&lt;/p&gt;
+&lt;h3&gt;Choosing Hardware for the Controller&lt;/h3&gt;
+&lt;p&gt;As far as choosing a platform, the HydroGadget team members have been playing around with the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and we all think it will make an excellent controller for our project.&lt;/p&gt;
+&lt;p&gt;We originally started to take some inspiration from &lt;a href="http://mightyohm.com/blog/about/"&gt;Jeff
+Keyzer's&lt;/a&gt;&lt;a href="http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/"&gt;WiFi
+Radio&lt;/a&gt;
+project.  Jeff did a really excellent job of documenting his build and we
+could easily see how it could be adapted to fit our project.  However we decided that
+if we wanted to make a production run of these things then using a wireless router as
+our platform would be too wasteful.  Assuming we did everything locally, we'd have to throw away the case and the
+router power supply plus it would be very time consuming to add the required
+serial header to the router mainboard.&lt;/p&gt;
+&lt;p&gt;The Raspberry Pi is a very inexpensive (~$35US) and low power ARM based computer that runs Linux
+and has enough general purpose Input-Output (GPIO) that we can control the
+sprinkler valve solenoids without having to add a lot of extra components.&lt;/p&gt;</summary><category term="Hardware Startup"></category><category term="Raspberry Pi"></category></entry></feed>
