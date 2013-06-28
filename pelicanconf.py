@@ -23,6 +23,7 @@ DATE_FORMATS = {
 
 DELETE_OUTPUT_DIRECTORY = True
 THEME = 'hydrogadget-theme'
+LOGO = 'http://i.imgur.com/hk8mdQr.png'
 
 # Blogroll
 LINKS =  (
