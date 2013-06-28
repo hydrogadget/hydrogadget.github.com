@@ -25,7 +25,8 @@ DELETE_OUTPUT_DIRECTORY = True
 # Blogroll
 LINKS =  (
          ('RaspberryPi.org', 'http://raspberrypi.org'),
-	 ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
+         ('SYN Shop', 'http://synshop.org'),
+         ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
          ('Python.org', 'http://python.org'),
 )
 
@@ -36,9 +37,3 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 10
-
-# FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
-
-#LOGOTEXT = 'HydroGadget'
-#LOGOIMAGE = '/theme/images/hydrogadget.png'
-#LOGOIMAGE = 'http://i.imgur.com/g6huB.png'
